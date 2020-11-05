@@ -1,27 +1,81 @@
 <!DOCTYPE html>
 <html>
 <meta lang="en">
- <head>
-   <title>Museums</title>
-   <meta charset=UTF-8>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="styles.css">
-   <head>
-       <h1>Nice Museums</h1>
-       <!--insert pic-->
-   </head>
-   <subheading>We have selected 5 really good museums which are worth visitig</subheading>
+<head>
+  <title>Hidden Museums in London</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+  <div class="jumbotron text-center">
+      <h1>Museums</h1>
+  </div>
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+ <div class="carousel-inner">
+   <div class="carousel-item active">
+     <img class="d-block w-100" src="img src\Museum\postal museum3.jpg" alt="Image of postal museum"width="50%" height=50%>
+   </div>
+   <div class="carousel-item">
+     <img class="d-block w-100" src="img src\Museum\Freud_Museum_London_1.jpg" alt="Image of Freud museum"width="50%" height="50%">
+   </div>
+   <div class="carousel-item">
+     <img class="d-block w-100" src="img src\Museum\Sherlock Holmes museum1.jpg" alt="Image of Sherlock Holmes museum"width="50%" height="50%">
+   </div>
+ </div>
+ <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   <span class="sr-only">Previous</span>
+ </a>
+ <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+   <span class="sr-only">Next</span>
+ </a>
    <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="Homepage.html">London hidden Gems 💎</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Homepage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Parks.html">Parks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Places To Eat.html">Places to eat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Galleries.html">Galeries</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
      <hr/>
-     <h3>THE POSTAL MUSEUM</h3>
-     <img src="img src\Museum\The postal museum 1.jpg" alt="" width="400" height="300"/>
-     <p></p>
-     <!--Each space for new place-->
+     <a href="https://www.postalmuseum.org/"><h3>THE POSTAL MUSEUM</h3></a>
+     <p>It was opened in 2004 as the British Postal Museum & archive by the Postal Heritage Trust. It will take you through the history of postal services, revealing really interesting fun facts about our mail. </p>
+      <img src="img src\Museum\The_postal_museum_1.jpg" alt="cloudy conifers landscape"width="425" height="300">
+      <img src="img src\Museum\postal_museum2.jpg" alt="lavendar landscape"width="425" height="300">
+      <img src="img src\Museum\postal museum3.jpg" alt="nat geo epic lanscape"width="425" height="300">
+    <p>If you visit it, you will also have the chance to ride through the hidden tunnels or walk through the 100-year-old mail rail tunnels. So, do not miss this one.</p>
      <br/>
-     <h3>THE SHERLOCK HOLMES MUSEUM)</h3>
-     <p></p>
+     <a href="https://www.sherlock-holmes.co.uk/"><h3>THE SHERLOCK HOLMES MUSEUM)</h3></a>
+
+     <p>This one is dedicated to one of the most important fictional characters in England, the famous detective Sherlock Holmes. </p>
+     <p>Try to guess its location…</p>
+     <p>… yeah it is 221b Baker St, the famous location of Holmes and Watson.</p>     
+     <img src="img src\Museum\Sherlock Holmes museum1.jpg" alt="Sherlock Holmes museum" width="425" height="300">
+     <img src="img src\Museum\Sherlock Holmes museum2.jpg" alt="Sherlock Holmes museum"width="425" height="300">
+     <img src="img src\Museum\Sherlock Holmes museum3.jpg" alt="Sherlock Holmes museum"width="425" height="300">
      <br/>
      <h3>THE FREUD MUSEUM</h3>
+     <img src="img src\Museum\Freud museum 2.jpg" alt="Freud museum"width="425" height="300">
+     <img src="img src\Museum\Freud museum 3.jpg" alt="Freud  museum"width="425" height="300">
+     <img src="img src\Museum\Freud_Museum_London_1.jpg" alt="Freud  museum"width="425" height="300">
      <!--insert images and vid-->
      <p></p>
      <h3>THE FREUD MUSEUM</h3>
@@ -30,6 +84,9 @@
      <h3>THE FREUD MUSEUM</h3>
      <!--insert images and vid-->
      <p></p>
-   </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
    <footer> </footer>
    </html>
