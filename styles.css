@@ -2,3 +2,13 @@
 /*specific font*/
 font-family: 'Roboto', sans-serif;
 
+.container {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
+  .Pictures {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
