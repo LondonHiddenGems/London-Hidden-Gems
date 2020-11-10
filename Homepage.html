@@ -37,15 +37,30 @@
         </li>
       </ul>
     </div>
+    <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="Parks.html">Parks</a>
+    <a href="Places To Eat.html">Places To Eat</a>
+    <a href="Museums.html">Museums</a>
+    <a href="Galleries.html">Galleries</a>
+  </div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
   </nav>
 
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img src/Parks/HomapageHeader.jpg" alt="Image of Woodbury Park">
-      <div class="carousel-caption">
-          <h1><a href="Parks.html"><h3>Parks</h3></a></h1>
-        </div>
+      <a href="Parks.html"><img class="d-block w-100" src="img src/Parks/HomapageHeader.jpg" alt="Image of Woodbury Park"></a>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="img src/Gallery/crypt gallery 3.jpg" alt="Image of Crypt Gallery">
@@ -55,10 +70,7 @@
     </div>
    
     <div class="carousel-item">
-      <img class="d-block w-100" src="img src/Museum/Freud museum 2.jpg" alt="Image of Freud Museum">
-      <div class="carousel-caption">
-          <h1><a href="Museums.html"><h3>Museums</h3></a></h1>
-        </div>
+      <a href="Museums.html"><img class="d-block w-100" src="img src/Museum/Freud museum 2.jpg" alt="Image of Freud Museum"></a>
     </div>
     
     <div class="carousel-item">
