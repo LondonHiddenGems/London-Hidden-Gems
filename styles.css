@@ -1,13 +1,11 @@
-<<<<<<< Updated upstream
-@import <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
-/*specific font*/
+
+/* @import <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+/*specific font
 font-family: 'Roboto', sans-serif;
 
 h2 {
   font-family: 'Kanit', sans-serif;
-}
-=======
->>>>>>> Stashed changes
+} */
 
 .row {
   display: flex;
